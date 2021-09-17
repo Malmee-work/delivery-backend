@@ -1,0 +1,11 @@
+const config = {
+  DBURL: 'db/delivery.db',
+  TOKEN_EXPIRE: '3600s',
+  TOKEN_SECRET:
+    'e9d85c19ecb64aac46b3765ed3d4b30cd3fb104c92c9a86a2ee57cbee077105092f468564adcbbf497dfc306dad56c7bd8201af76ea654e567be569cc476e8f6',
+  WINDOW_SIZE_IN_MINUTES: 60,
+  MAX_WINDOW_REQUEST_COUNT: 5,
+  WINDOW_LOG_INTERVAL_IN_SECONDS: 60
+};
+
+export default config;
