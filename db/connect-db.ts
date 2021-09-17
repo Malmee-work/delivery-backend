@@ -1,7 +1,8 @@
 import config from '../config';
 // eslint-disable-next-line
 const sqlite3 = require('sqlite3').verbose();
-import sqlite from 'sqlite';
+// eslint-disable-next-line
+const sqlite = require('sqlite');
 
 let db: any;
 const openDB = async () => {
